@@ -16,7 +16,7 @@ jobs:
     defaults:
       run:
         shell: bash
-        working-directory: ./env/dev   # ✅ IMPORTANT FIX
+        working-directory: ./terraform-infra/env/dev   # ✅ IMPORTANT FIX
 
     steps:
     # Checkout repo
